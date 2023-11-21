@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posicionamiento y Apilamiento</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/250px-CSS3_logo_and_wordmark.svg.png"
+    type="image/x-icon">
+</head>
+
+<body style="background-color:#333; color: aliceblue; margin: 0; font-family: Arial, Helvetica, sans-serif;">
+  <header>
+    <h1>Posicionamiento y Apilamiento</h1>
+  </header>
+
+  <br>
+
+  <main style="margin: 0;">
+    <h2>Posicionamiento</h2>
+
+    <h3>Posicionamiento Estatico</h3>
+    <div class="contenedor-p">
+      <div class="cajas static">estatico</div>
+      <p>Texto</p>
+    </div>
+
+    <h3>Posicionamiento relativo</h3>
+    <div class="contenedor-p">
+      <div class="cajas relative">relativo</div>
+      <p>Texto</p>
+    </div>
+
+    <h3>Posicionamiento absoluto</h3>
+    <div class="contenedor-p padre-relativo">
+      <div class="cajas absolute">absoluto</div>
+      <p>Texto</p>
+    </div>
+
+    <h3>Posicionamiento fijado</h3>
+    <div class="contenedor-p">
+      <div class="cajas fixed">fijo</div>
+      <p>Texto</p>
+    </div>
+
+    <h3>Posicionamiento pagajoso</h3>
+    <div class="contenedor-p h-400">
+      <div class="cajas sticky">pegajoso</div>
+      <p>Texto</p>
+    </div>
+
+    <h2>Apilamiento z-index</h2>
+    <div class="contenedor-a">
+      <div class="caja primero">caja 1</div>
+      <div class="caja segundo">caja 2</div>
+      <div class="caja tercero">caja 3</div>
+    </div>
+  </main>
+
+  <br><br><br>
+
+  <footer style="background-color: black; min-height: 50px; margin: 0;">
+    <h3 style="margin: 0; height: 50px; line-height: 50px;">Happy Code!!!</h3>
+  </footer>
+</body>
+
+</html>

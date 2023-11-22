@@ -1,0 +1,70 @@
+/* position, nos permite modificar la posicion de cualquier elemento html dentro de nuesto documento */
+
+
+/* tipos de posicionamiento-> position:
+
+stactic (default)
+relative 
+abosolute
+fixed
+sticky
+
+
+*/
+
+
+/* si pretendo mover los elementos html dentro del documento, debo tomar cuenta cuatros ejes */
+
+
+
+/* 
+top
+right
+botoom
+left 
+*/
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.contenedor-p {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid
+}
+
+.cajas {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+}
+
+.static {
+  background-color: lemonchiffon;
+  position: static;
+}
+
+.relative {
+  background-color: lightgreen;
+  position: relative;
+  top: 10px;
+  left: 70px;
+}
+
+
+.padre-relativo {
+  position: relative;
+}
+
+.absolute {
+  background-color: lightcoral;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

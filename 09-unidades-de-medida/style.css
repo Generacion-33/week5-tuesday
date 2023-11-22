@@ -1,0 +1,87 @@
+/* 
+px (absolute)
+
+em (relative)
+rem (relative)
+% (relative)
+vh-vw (relative)
+
+
+*/
+
+
+html {}
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.contenedor {
+  font-size: 35px;
+  margin: 0;
+}
+
+.contenedor>p {
+  font-size: inherit;
+  margin: 0;
+}
+
+.px {
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  font-size: inherit;
+}
+
+/* em */
+
+.em {
+  /* oye, cual es el font size del contenedor? 35px, bueno entonces 1em = 35px */
+  border: 1px solid;
+  width: 10em;
+  height: 10em;
+}
+
+/* rem */
+
+.rem {
+  /* 1rem sera igual al font-size que tenga en mi etiqueta root */
+  /* 1rem=16px */
+  border: 1px solid;
+  width: 10rem;
+  height: 10rem;
+  font-size: initial;
+}
+
+.porcentaje {
+  border: 1px solid;
+  width: 30%;
+  height: 150px;
+  font-size: initial;
+}
+
+.vw-vh {
+  border: 1px solid;
+  width: 100%;
+  height: 100vh;
+  border: none;
+  background-color: lavender;
+  color: black;
+
+
+}

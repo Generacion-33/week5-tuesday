@@ -1,0 +1,15 @@
+h1 {
+  display: inline;
+}
+
+h2 {
+  display: inline;
+}
+
+.d-none {
+  display: none;
+}
+
+.v-hidden {
+  visibility: hidden;
+}
